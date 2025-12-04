@@ -371,7 +371,7 @@ public class GameUIManager : MonoBehaviour
                 for (int i = 0; i < 10; i++) list.Add(symbols[Random.Range(0, symbols.Length)]);
                 break;
             case "名前":
-                list = new List<string> { "謝憐", "三郎", "花城", "霊文", "南風", "扶揺", "君吾", "風信", "慕情", "師青玄", "風師", "師無渡", "水師", "郎千秋", "裴茗", "裴宿", "半月", "明儀", "戚容" };
+                //list = new List<string> { "謝憐", "三郎", "花城", "霊文", "南風", "扶揺", "君吾", "風信", "慕情", "師青玄", "風師", "師無渡", "水師", "郎千秋", "裴茗", "裴宿", "半月", "明儀", "戚容" };
                 Shuffle(list);
                 list = list.GetRange(0, Mathf.Min(10, list.Count));
                 break;
